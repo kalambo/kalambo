@@ -1,0 +1,14 @@
+{
+  "name": "kalambo",
+  "version": "1.0.0",
+  "scripts": {
+    "prettier": "prettier --write \"src/**/*.ma\"",
+    "dev": "maraca-dev",
+    "build": "maraca-build"
+  },
+  "devDependencies": {
+    "maraca-app": "https://github.com/kalambo/maraca-app.git",
+    "prettier": "^1.15.1",
+    "prettier-plugin-maraca": "^0.1.0"
+  }
+}
