@@ -4,7 +4,7 @@
       [title, info]=>>
         [
           gap: 10,
-          [font: 26 bold, color: 27ae60, title?],
+          [font: 24 bold, color: 27ae60, title?],
           info?,
         ],
     ],
@@ -44,7 +44,7 @@
           ],
     ],
     [
-      :row,
+      : row fill,
       gap: 40,
       ::
         items?

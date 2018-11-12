@@ -2359,7 +2359,7 @@ map-visit@^1.0.0:
 
 "maraca-app@https://github.com/kalambo/maraca-app.git":
   version "0.0.1"
-  resolved "https://github.com/kalambo/maraca-app.git#2a9797203daab6fa695cd84522c6b66e0f2d28ab"
+  resolved "https://github.com/kalambo/maraca-app.git#e24a544a14243ae6c0cb9025b8a64caa34a45fa8"
   dependencies:
     crel "^3.1.0"
     css-loader "^1.0.1"

@@ -2,6 +2,7 @@
   font: italic bold 28,
   gap: 10,
   fill: f6f6f6,
+  corner: 5,
   pad: 25 30,
   width: 750,
   HostNation,
