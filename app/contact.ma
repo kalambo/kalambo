@@ -1,12 +1,12 @@
 [
-  gap: 20,
+  gap: 35,
   [
-    font: 36 bold,
+    style: 36 bold,
     "Get in touch",
   ],
   [
     "Contact us as at ",
-    [:inline, font: bold, color: 27ae60, "info@kalambo.org"],
-    ".",
+    [: inline, style: bold, color: colors?.green, "info@kalambo.org"],
+    \.,
   ],
 ]

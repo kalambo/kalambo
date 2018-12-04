@@ -1,36 +1,39 @@
 {
-  #title Kalambo,
-  #font Ubuntu bold,
-  colors: [green: 27ae60],
+  #title(Kalambo),
   [
-    font: Ubuntu 18,
-    color: 333,
+    style: Ubuntu 18,
+    color: 0 0 20,
     [
-      fill: f6f6f6,
+      fill: 0 0 97,
       [
         width: 1000,
-        pad: 10 15,
-        font: bold 22,
-        color: colors? green,
+        pad: 15 15,
+        style: bold 22,
+        color: colors?.green,
         Kalambo,
       ],
     ],
     [
-      pad: 50 15,
+      pad: 60 15,
       width: 900,
       gap: 50,
       [
+        gap: 20,
         [
-          :row,
+          : row,
           align: middle,
           gap: 20,
-          [image: "./logo.png", width: 100],
+          width: left,
           [
-            font: 70 bold,
+            width: 100,
+            image: "./logo.png",
+          ],
+          [
+            style: 70 bold,
             Kalambo,
           ],
         ],
-        font: 22,
+        style: 22,
         "
         We are a tech organisation working to help small and medium charities and social enterprises make the best use of their data.
         ",
@@ -41,13 +44,13 @@
       contact?,
     ],
     [
-      fill: f6f6f6,
+      fill: 0 0 97,
       [
         width: 900,
-        pad: 15 15,
-        font: 14,
-        color: 888,
-        "© Kalambo 2018",
+        pad: 20 15,
+        style: 14,
+        color: 0 0 50,
+        \© Kalambo 2018,
       ],
     ],
   ],

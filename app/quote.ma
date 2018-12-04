@@ -1,15 +1,15 @@
 [
-  font: italic bold 28,
-  gap: 10,
-  fill: f6f6f6,
-  corner: 5,
-  pad: 25 30,
+  style: italic bold 28,
+  gap: 25,
+  fill: 0 0 97,
+  round: 5,
+  pad: 30,
   width: 750,
   HostNation,
   [
-    font: 18,
-    color: 27ae60,
-    gap: 10,
+    style: 18,
+    color: colors?.green,
+    gap: 20,
     "
     “Kalambo has been instrumental in creating HostNation and realising the concept of an online refugee befriending platform.
     ",
