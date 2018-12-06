@@ -50,7 +50,7 @@
         pad: 20 15,
         style: 14,
         color: 0 0 50,
-        \© Kalambo 2018,
+        '© Kalambo 2018,
       ],
     ],
   ],

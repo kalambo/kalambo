@@ -7,6 +7,6 @@
   [
     "Contact us as at ",
     [: inline, style: bold, color: colors?.green, "info@kalambo.org"],
-    \.,
+    '.,
   ],
 ]
